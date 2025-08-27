@@ -21,13 +21,13 @@ public class Main {
 
         //Creamos estudiantes
         Estudiante estudiante = new Estudiante("Camilo", "Rivera", "ryriverauniquindio.edu.co", "ad11", "3100000", 30);
-        Estudiante estudiante1 = new Estudiante("Maria", "Rivera", "ryriverauniquindio.edu.co", "ad11fg", "3100000", 30);
+        Estudiante estudiante1 = new Estudiante("Maria", "Rivera", "ryriverauniquindio.edu.co", "ad11", "3100000", 30);
         Estudiante estudiante2 = new Estudiante("Carlos", "Rivera", "ryriverauniquindio.edu.co", "ad111441", "3100000", 30);
         Estudiante estudiante3 = new Estudiante("Luisa", "Rivera", "ryriverauniquindio.edu.co", "ad11xaxa", "3100000", 30);
 
 
         curso.agregarEstudianteCurso(estudiante);
-        curso1.agregarEstudianteCurso(estudiante);
+        curso.agregarEstudianteCurso(estudiante1);
         curso2.agregarEstudianteCurso(estudiante2);
         curso1.agregarEstudianteCurso(estudiante3);
 
